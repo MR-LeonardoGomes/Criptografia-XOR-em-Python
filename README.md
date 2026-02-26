@@ -1,0 +1,1 @@
+# Criptografia-XOR-em-Python
