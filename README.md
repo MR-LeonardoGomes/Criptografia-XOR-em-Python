@@ -25,7 +25,7 @@ python xor_encrypt.py -f payload.bin -o payload.enc -k minha_chave_secreta
 Para testar com uma chave aleatória: python xor_encrypt.py -f payload.bin -o payload.enc --key-output key.txt
 
 🚀 Projeto 2: O Loader com Decriptação XOR (em C ou outra linguagem)
-Agora que você tem o payload criptografado (payload.enc), precisa de um programa que o descriptografe e execute na máquina alvo. Como o loader será o executável final, ele é geralmente escrito em linguagens de mais baixo nível como C, C# ou até mesmo em Python com bibliotecas como ctypes.
+Agora que você tem o payload criptografado (payload.enc), precisa de um programa que o descriptografe e execute . Como o loader será o executável final, ele é geralmente escrito em linguagens de mais baixo nível como C, C# ou até mesmo em Python com bibliotecas como ctypes.
 
 Conceitos-chave:
 
