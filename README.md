@@ -27,10 +27,3 @@ Para testar com uma chave aleatória: python xor_encrypt.py -f payload.bin -o pa
 🚀 Projeto 2: O Loader com Decriptação XOR (em C ou outra linguagem)
 Agora que você tem o payload criptografado (payload.enc), precisa de um programa que o descriptografe e execute . Como o loader será o executável final, ele é geralmente escrito em linguagens de mais baixo nível como C, C# ou até mesmo em Python com bibliotecas como ctypes.
 
-Conceitos-chave:
-
-Decodificação em Memória: O payload não deve ser salvo no disco de forma decriptada. A ideia é carregar os bytes criptografados, decriptá-los em uma região de memória e então executá-los dali .
-
-Técnicas de Evasão: Loaders avançados usam técnicas como alocar memória com permissões de escrita, copiar o payload decriptado e, em seguida, mudar a permissão para execução (isso ajuda a evitar detecção por scanners de memória) .
-
-Exemplo de Conceito em C (baseado no repositório C-Language-payload-encoder) :
